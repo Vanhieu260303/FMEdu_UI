@@ -26,6 +26,7 @@ export default function HeaderSimple() {
       <Toolbar
         sx={{
           justifyContent: 'space-between',
+          zIndex:'1000 !important',
           height: {
             xs: HEADER.H_MOBILE,
             md: HEADER.H_DESKTOP,

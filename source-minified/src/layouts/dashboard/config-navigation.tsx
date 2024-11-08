@@ -51,10 +51,10 @@ export function useNavData() {
       {
         subheader: 'overview v5.7.0',
         items: [
-          { title: 'one', path: paths.dashboard.root, icon: ICONS.dashboard },
-          { title: 'two', path: paths.dashboard.two, icon: ICONS.ecommerce },
+          { title: 'Đánh giá', path: paths.dashboard.root, icon: ICONS.dashboard },
+          { title: 'Danh sách đánh giá', path: paths.dashboard.two, icon: ICONS.ecommerce },
           {
-            title: 'three',
+            title: 'Báo cáo thống kê',
             path: paths.dashboard.three,
             icon: ICONS.analytics,
           },
@@ -67,13 +67,40 @@ export function useNavData() {
         subheader: 'management',
         items: [
           {
-            title: 'user',
+            title: 'Quản trị viên',
             path: paths.dashboard.group.root,
             icon: ICONS.user,
             children: [
-              { title: 'four', path: paths.dashboard.group.root },
-              { title: 'five', path: paths.dashboard.group.five },
-              { title: 'six', path: paths.dashboard.group.six },
+              { title: 'Form', path: paths.dashboard.group.root },
+              { title: 'Tiêu chí', path: paths.dashboard.group.five },
+              { title: 'Lịch', path: paths.dashboard.group.six },
+            ],
+          },
+          {
+            title: 'Quản lý Nhóm Phòng',
+            path: paths.dashboard.roomgroup.root,
+            icon: ICONS.lock,
+            children: [
+              { title: 'Danh sách nhóm', path: paths.dashboard.roomgroup.list },
+            ],
+          },
+
+          {
+            title: 'Nhóm người chịu trách nhiệm',
+            path: paths.dashboard.responsiblegroup.root,
+            icon: ICONS.lock,
+            children: [
+              { title: 'Danh sách nhóm', path: paths.dashboard.responsiblegroup.list },
+              { title: 'Danh sách tag', path: paths.dashboard.responsiblegroup.createUserPerTag},
+            ],
+          },
+
+          {
+            title: 'Quản lý ca làm việc',
+            path: paths.dashboard.shift.root,
+            icon: ICONS.menuItem,
+            children: [
+              { title: 'Danh sách ca', path: paths.dashboard.shift.list },
             ],
           },
         ],

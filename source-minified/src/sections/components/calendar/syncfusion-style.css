@@ -1,0 +1,57 @@
+/* Light theme */
+.datetime-picker-light {
+    width: 100%;
+}
+
+
+
+.datetime-picker-light .e-input-group {
+    background-color: #fff !important;
+    border-color: rgba(145, 158, 171, 0.32) !important;
+}
+
+.datetime-picker-light .e-input-group input,
+.datetime-picker-light .e-input-group span {
+    color: #212B36 !important;
+}
+
+.datetime-picker-light .e-input-group:hover:not(.e-disabled) {
+    border-color: #212B36 !important;
+}
+
+.datetime-picker-light .e-input-group.e-input-focus {
+    border-color: #00A76F !important;
+}
+
+/* Dark theme */
+.datetime-picker-dark {
+    width: 100%;
+}
+
+.datetime-picker-dark .e-input-group {
+    background-color: #212B36 !important;
+    border-color: rgba(145, 158, 171, 0.32) !important;
+}
+
+.datetime-picker-dark .e-input-group input,
+.datetime-picker-dark .e-input-group span {
+    color: #fff !important;
+}
+
+.datetime-picker-dark .e-input-group:hover:not(.e-disabled) {
+    border-color: #fff !important;
+}
+
+.datetime-picker-dark .e-input-group.e-input-focus {
+    border-color: #00A76F !important;
+}
+
+/* Checkbox styles */
+.e-checkbox-wrapper .e-frame {
+    background-color: transparent !important;
+}
+
+/* RecurrenceEditor styles */
+.e-recurrence-editor {
+    color: inherit !important;
+}

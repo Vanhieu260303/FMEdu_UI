@@ -8,6 +8,7 @@ export function paper(theme: Theme) {
       styleOverrides: {
         root: {
           backgroundImage: 'none',
+         
         },
         outlined: {
           borderColor: alpha(theme.palette.grey[500], 0.16),

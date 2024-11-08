@@ -34,7 +34,7 @@ export default function NavToggleButton({ sx, ...other }: IconButtonProps) {
         top: 32,
         position: 'fixed',
         left: NAV.W_VERTICAL - 12,
-        zIndex: theme.zIndex.appBar + 1,
+        zIndex:1000,
         border: `dashed 1px ${theme.palette.divider}`,
         ...bgBlur({ opacity: 0.48, color: theme.palette.background.default }),
         '&:hover': {

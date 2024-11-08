@@ -29,6 +29,7 @@ function NavHorizontal() {
       component="div"
       sx={{
         top: HEADER.H_DESKTOP_OFFSET,
+        zIndex:'1000 !important'
       }}
     >
       <Toolbar
